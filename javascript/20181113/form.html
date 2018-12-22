@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script>
+			function check(thischeckbox){
+				if(thischeckbox.checked){
+					document.getElementById("submit").disabled=false;
+				}
+				else{
+					document.getElementById("submit").disabled=true;
+				}
+			}
+			function validate_form(thisform) {
+				with(thisform) {
+					if(checkbox.checked == false){
+						alert("请同意!");
+						event.preventDefault();
+						return false;
+					}
+					if(user_id.value == null || user_id.value == "") {
+						alert("user_id为空!");
+						event.preventDefault();
+						return false;
+					}
+					if(password.value == null || password.value == "") {
+						alert("password为空!");
+						event.preventDefault();
+						return false;
+					}
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<form action="http://localhost/login.php" onsubmit="validate_form(this);" method="post">
+			<table border="1" style="text-align: center;" align="center">
+				<tr>
+					<td colspan="2">登陆</td>
+				</tr>
+				<tr>
+					<td>用户名:</td>
+					<td><input type="text" name="user_id" id="passwd" /></td>
+				</tr>
+				<tr>
+					<td>密码:</td>
+					<td><input type="password" name="password" id="passwd1" /></td>
+				</tr>
+				<tr>
+					<td colspan="2"><input type="checkbox" name="checkbox" onclick="check(this);" />同意 </td>
+				</tr>
+				<tr>
+					<td colspan="2"><input type="submit" id="submit" value="提交" disabled/>
+					<input type="reset" value="重置" /> </td>
+				</tr>
+			</table>
+		</form>
+		<!--<button onclick="document.getElementById("passwd").value="123456789";">11 </button>-->
+		
+	</body>
+</html>

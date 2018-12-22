@@ -1,0 +1,117 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: com/mysql/jdbc/configs/maxPerformance.properties
+SHA1-Digest: Vsurujnz2RXWyBge9WHml2oDORA=
+
+Name: AndroidManifest.xml
+SHA1-Digest: qq45xpLW1UFC5D43E/E/lVN9OA8=
+
+Name: com/mysql/jdbc/Charsets.properties
+SHA1-Digest: m2WlboGDgaN7oGKWl7ole4Lvp8E=
+
+Name: res/drawable/shape_main_imageview.xml
+SHA1-Digest: gcAk1RV1VlN7WrsSaVfJf2b/l34=
+
+Name: res/layout/capture.xml
+SHA1-Digest: ntT06VYwZFmIJRF5mBTB8i8OHag=
+
+Name: res/drawable/shape_main_button.xml
+SHA1-Digest: g3DIPiUs5mqmCpTZlPD3aJyjUw4=
+
+Name: com/mysql/jdbc/configs/3-0-Compat.properties
+SHA1-Digest: UcZBHL7GBgkmoR8p59Ha49ps/pA=
+
+Name: res/drawable-hdpi-v4/ic_launcher.png
+SHA1-Digest: Nq8q3HeTluE5JNCBpVvNy3BXtJI=
+
+Name: res/layout/activity_welcome.xml
+SHA1-Digest: aRMmcZw5ZYRTyLss1VV/4XOhH4s=
+
+Name: res/drawable-hdpi-v4/scan_light.png
+SHA1-Digest: jF9KATDfc917+649xNT5tgcHvtM=
+
+Name: res/drawable-mdpi-v4/ic_launcher.png
+SHA1-Digest: RRxOSvpmhVfCwiprVV/wZlaqQpw=
+
+Name: res/layout/activity_cun_change.xml
+SHA1-Digest: Uepd8Egh9l9Q8vQVI2OEuAbVd+U=
+
+Name: com/mysql/jdbc/configs/fullDebug.properties
+SHA1-Digest: t1GGhQIu/e2yOhTM9R69zQiIHHY=
+
+Name: com/mysql/jdbc/configs/solarisMaxPerformance.properties
+SHA1-Digest: SZheahzcQOsYchEPdEW64ioLc14=
+
+Name: com/mysql/jdbc/configs/5-0-Compat.properties
+SHA1-Digest: cLVbXA8QxVIhzIfIqkiBbouxbBo=
+
+Name: res/layout/activity_cun.xml
+SHA1-Digest: UDat3mNep7qa5V/b8CT8MYuEWFw=
+
+Name: com/mysql/jdbc/configs/clusterBase.properties
+SHA1-Digest: z7SgLEx7GH6G6jx7OM28OiMGQzI=
+
+Name: res/layout/activity_return_qr.xml
+SHA1-Digest: FdEoU7QQJNSI8EcjCXROzTCjzdg=
+
+Name: res/layout/activity_user_interface.xml
+SHA1-Digest: Fu7AzmMof2DD1br7f41DSS0L3lk=
+
+Name: res/drawable-xxhdpi-v4/ic_launcher.png
+SHA1-Digest: GVIfdEOBv4gEny2T1jDhGGsZOBo=
+
+Name: res/drawable/shape_main_title.xml
+SHA1-Digest: o9/JIcSe5zk6PziMkfHrfLAEPu0=
+
+Name: com/mysql/jdbc/configs/coldFusion.properties
+SHA1-Digest: d+G2973SBW5tYNED2C1yalRl+pA=
+
+Name: res/layout/activity_result.xml
+SHA1-Digest: 08CH1LCpUjOo+kfq/dX39tq4MDU=
+
+Name: res/drawable/selector_main_button.xml
+SHA1-Digest: fYeVZW/SCwwmZezFVEmaEjoRDV0=
+
+Name: res/layout/activity_login.xml
+SHA1-Digest: fdW/b6Cb8bwPds1pR7i5h5qDTw0=
+
+Name: res/drawable-hdpi-v4/btn_back_press.png
+SHA1-Digest: lfyHAC7Pi8ohg2uyw6aKCLGFA6k=
+
+Name: res/layout/activity_main.xml
+SHA1-Digest: Unj2w46BilXZdw7dMOWg2IcwJ7Y=
+
+Name: res/raw/beep.ogg
+SHA1-Digest: GlIsg8mvi6v0saqDdV7ZN0KoFcY=
+
+Name: res/drawable/selector_capture_back.xml
+SHA1-Digest: VU70+AYjgy05vpJTTUMQhFtw1+Q=
+
+Name: res/drawable-xhdpi-v4/ic_launcher.png
+SHA1-Digest: AfPh3OJoypH966MludSW6f1RHg4=
+
+Name: res/layout/activity_register.xml
+SHA1-Digest: AMGd7Zugte9TAW7x1UyBczLMRa8=
+
+Name: res/drawable/shape_main_edit.xml
+SHA1-Digest: Uv5e0xUDOLqPMYMyT3fWiViZ0jk=
+
+Name: com/mysql/jdbc/LocalizedErrorMessages.properties
+SHA1-Digest: nu0UVoNZfKfo1YMJztCS+7eklH4=
+
+Name: res/drawable-hdpi-v4/loading.jpg
+SHA1-Digest: sz4pEAVRIQRtBNEmpD9cbFlxJis=
+
+Name: resources.arsc
+SHA1-Digest: raqTdZ0/5oLjLtTVSNmYvH0km4c=
+
+Name: res/drawable-hdpi-v4/btn_back_normal.png
+SHA1-Digest: fdTiL3JNXir9ftBq2/rg3q4l5MI=
+
+Name: classes.dex
+SHA1-Digest: ZgvQXtEVffP16tbEVMdmPZNetQc=
+
+Name: res/drawable-hdpi-v4/flashlight.png
+SHA1-Digest: +Z20/BkkSdwNsbqUOrlcVFSo3BU=
+

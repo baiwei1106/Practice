@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script>
+			function check(thischeckbox){
+				if(thischeckbox.checked){
+					document.getElementById("submit").disabled=false;
+				}
+				else{
+					document.getElementById("submit").disabled=true;
+				}
+			}
+			function vform(thisform) {
+				with(thisform) {
+					if(checkbox.checked == false){
+						alert("请同意!");
+						event.preventDefault();
+						return false;
+					}
+					if(user_id.value == null || user_id.value == "") {
+						alert("user_id为空!");
+						event.preventDefault();
+						return false;
+					}
+					if(passwd1.value == null || passwd1.value == "") {
+						alert("password为空!");
+						event.preventDefault();
+						return false;
+					}
+					if(passwd2.value == null || passwd2.value == "") {
+						alert("password为空!");
+						event.preventDefault();
+						return false;
+					}
+				}
+			}
+			function checkboxall(thischeckbox){
+				var a = document.getElementsByName("aihao");
+				if(thischeckbox.checked){
+					for(i=0;i<a.length;i++){
+						a[i].checked=true;
+					}
+				}
+				else{
+					for(i=0;i<a.length;i++){
+						a[i].checked=false;
+					}
+				}
+			}
+			function checkboxa(){
+				var flag=true;
+				var a = document.getElementsByName("aihao");
+				var b = document.getElementById("aihao");
+				for(i=0;i<a.length;i++){
+					if(a[i].checked==false)
+						flag=false;
+				}
+				if(flag){
+					b.checked=true;
+				}
+				else{
+					b.checked=false;
+				}
+			}
+			function setcity(thiscity){
+				var arr = [
+					["--选择城市--"],
+					["乌兰察布市","呼和浩特市","包头市","鄂尔多斯市"],
+					["海定区","东城区","西城区","朝阳区"],
+					["济南","青岛","日照","威海"],
+					["长沙","郴州","岳阳","株洲"],
+					["广州","深圳","惠州","东莞"]
+					
+				];
+				var index = thiscity.selectedIndex;
+				var ccity = document.getElementById("ccity");
+                ccity.options.length=0;
+                for(i=0;i<arr[index].length;i++){  
+		            var optNode = document.createElement("option");  
+		            optNode.innerText = arr[index][i];  
+		            ccity.appendChild(optNode);
+		        }  
+			}
+		</script>
+	</head>
+	<body>
+		<form action="http://localhost/login.php" onsubmit="vform(this);" method="post">
+			<table border="1" style="text-align: center;" align="center">
+				<tr>
+					<td colspan="2">注册</td>
+				</tr>
+				<tr>
+					<td>用户名:</td>
+					<td><input type="text" name="user_id" id="passwd" /></td>
+				</tr>
+				<tr>
+					<td>密码:</td>
+					<td><input type="password" name="password" id="passwd1" /></td>
+				</tr>
+				<tr>
+					<td>再次输入密码:</td>
+					<td><input type="password" name="password" id="passwd2" /></td>
+				</tr>
+				<tr>
+					<td>爱好:</td>
+					<td>
+						<input type="checkbox" id="aihao" onclick="checkboxall(this);" />全选
+						<input type="checkbox" name="aihao" onclick="checkboxa();" />爱好1
+						<input type="checkbox" name="aihao" onclick="checkboxa();" />爱好2
+						<input type="checkbox" name="aihao" onclick="checkboxa();" />爱好3
+					</td>
+				</tr>
+				<tr>
+					<td>城市:</td>
+					<td>
+						<select id="city" onchange="setcity(this)">  
+					        <option>--选择省市--</option>
+					        <option>内蒙古</option>
+					        <option>北京</option>  
+					        <option>山东</option>  
+					        <option>湖南</option>  
+					        <option>广东</option>  
+					   	</select>
+					   	<select id="ccity">  
+					        <option>--选择城市--</option>  
+					    </select>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2"><input type="checkbox" name="checkbox" onclick="check(this);" />同意 </td>
+				</tr>
+				<tr>
+					<td colspan="2"><input type="submit" id="submit" value="提交" disabled/>
+					<input type="reset" value="重置" /> </td>
+				</tr>
+			</table>
+		</form>
+		<!--<button onclick="document.getElementById("passwd").value="123456789";">11 </button>-->
+		
+	</body>
+</html>

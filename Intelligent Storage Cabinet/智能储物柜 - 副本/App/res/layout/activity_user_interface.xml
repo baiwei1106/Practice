@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="130dp"
+     >
+     <TextView 
+         android:id="@+id/tv_user_name"
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:gravity="center"
+         />
+
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请选择下面的服务"
+        android:textSize="24dp"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_marginTop="150dp"
+        >
+        <Button 
+            android:id="@+id/btn_cun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="存包"
+            android:background="@drawable/shape_backgraund"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            />
+        <Button 
+            android:id="@+id/btn_qu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="取包"
+            android:background="@drawable/shape_backgraund"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            />
+        
+    </LinearLayout>
+
+</LinearLayout>

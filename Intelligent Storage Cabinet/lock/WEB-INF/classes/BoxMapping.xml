@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xxxy.bean.box">
+    
+    <update id="open" parameterType="bb">
+        update box set flag = 1, userid = #{userid} where box_id = #{box_id};
+    </update>
+    
+    <update id="open1" parameterType="bb">
+        update box set flag = 1, userid = null where box_id = #{box_id};
+    </update>
+  
+    <select id="selectAll" resultType="bb">
+        select * from box;
+    </select>
+    
+    <update id="inbox" parameterType="bb">
+        update box set flag = 1, userid = #{userid} where box_id = #{box_id}
+    </update>
+    
+    <update id="outbox" parameterType="bb">
+        update box set flag = 0, userid = null where box_id = #{box_id}
+    </update>
+    
+</mapper>

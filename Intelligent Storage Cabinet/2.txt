@@ -1,0 +1,5 @@
+MemoryDao.class -> public boolean insertmemory();
+    memory表插入方式建议修改为"insert INTO `memory`(`user_id`,`box_id`,`flag`,`date`) VALUES(?,?,?,?)"
+    memory表id字段建议为自增int，方便后台统计
+
+box表time字段为终端web判断状态用，不要删除

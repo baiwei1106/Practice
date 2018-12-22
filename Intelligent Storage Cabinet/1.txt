@@ -1,0 +1,40 @@
+所有按钮可以重复点击，导致某些地方可以重复执行，从而错误执行非法操作，可以设置按钮点击一次后几秒内失效
+
+在存包确认时再次校验柜是否可操作，防止在确认时已经通过其他渠道存包，再次修改数据库导致的异常
+
+在存包成功后返回主界面，否则可以再次存包导致异常
+
+CunActivity.class/CunChangeActivity.class -> public void onClick();
+    bool中有false时，回滚之前true的操作
+
+    增加boolean bool5 = localBoxDao.updateoperateflag(localBox.getBox_id(), "0");
+
+    删除localBoxDao.updateflag(localBox.getBox_id(), "2");这个操作是由硬件完成，否则无法开箱
+
+    可以增加判断flag是否为2时提示存包成功
+    flag为1时为等待开箱
+
+UserDao.class -> public boolean insertuser();
+    localPreparedStatement2.setString(5, "0"); "0"修改为null，否则注册后无法存包
+
+LoginActivity.class
+    LoginActivity.this.flag 设置为1后未归位，导致第一次输入错误后，即使输入正确也无法登陆
+
+    if (LoginActivity.this.flag == 1) {
+        LoginActivity.this.et_login_phone.setText("");
+    }  没有必要，同时可以避免上一个问题
+
+    密码不能明文显示
+
+BoxDao.class -> public boolean updateflag()
+    localPreparedStatement2 = localConnection.prepareStatement("update box set flag=? where box_id=?");
+    修改为"update box set flag=?, operateflag = 0 where box_id=?"
+
+UserInterfaceActivity.class
+    boolean bool5 = localBoxDao.updateoperateflag(localBox.getBox_id(), "0");
+    "0"修改为null
+
+    删除localBoxDao.updateflag(localBox.getBox_id(), "0");这个操作是由硬件完成，否则无法开箱
+
+    可以增加判断flag是否为0时提示取包成功
+    flag为3时为等待开箱
