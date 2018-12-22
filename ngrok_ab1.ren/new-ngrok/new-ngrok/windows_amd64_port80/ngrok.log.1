@@ -1,0 +1,59 @@
+[2018/11/03 19:06:26 CST] [INFO] (ngrok/log.Info:112) Reading configuration file ngrok.cfg
+[2018/11/03 19:06:26 CST] [INFO] (ngrok/log.(*PrefixLogger).Info:83) [client] Trusting root CAs: [assets/client/tls/ngrokroot.crt]
+[2018/11/03 19:06:26 CST] [INFO] (ngrok/log.(*PrefixLogger).Info:83) [view] [web] Serving web interface on 127.0.0.1:4040
+[2018/11/03 19:06:26 CST] [INFO] (ngrok/log.Info:112) Checking for update
+[2018/11/03 19:06:26 CST] [INFO] (ngrok/log.(*PrefixLogger).Info:83) [view] [term] Resize event, redrawing
+[2018/11/03 19:06:26 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] Waiting for update
+[2018/11/03 19:06:26 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] Waiting for update
+[2018/11/03 19:06:26 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:2e78dd86] New connection to: 39.104.102.38:4443
+[2018/11/03 19:06:26 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:2e78dd86] Writing message: {"Type":"Auth","Payload":{"Version":"2","MmVersion":"1.7","User":"","Password":"","OS":"windows","Arch":"amd64","ClientId":""}}
+[2018/11/03 19:06:26 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:2e78dd86] Waiting to read message
+[2018/11/03 19:06:26 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:2e78dd86] Reading message with length: 120
+[2018/11/03 19:06:26 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:2e78dd86] Read message {"Type":"AuthResp","Payload":{"Version":"2","MmVersion":"1.7","ClientId":"d97b554f5fcb0ac70763493f16ee373c","Error":""}}
+[2018/11/03 19:06:26 CST] [INFO] (ngrok/log.(*PrefixLogger).Info:83) [client] Authenticated with server, client id: d97b554f5fcb0ac70763493f16ee373c
+[2018/11/03 19:06:26 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] Waiting for update
+[2018/11/03 19:06:26 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:2e78dd86] Writing message: {"Type":"ReqTunnel","Payload":{"ReqId":"e2e8909d84c8fb37","Protocol":"http","Hostname":"","Subdomain":"acm","HttpAuth":"","RemotePort":0}}
+[2018/11/03 19:06:26 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:2e78dd86] Waiting to read message
+[2018/11/03 19:06:26 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:2e78dd86] Reading message with length: 32
+[2018/11/03 19:06:26 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:2e78dd86] Read message {"Type":"ReqProxy","Payload":{}}
+[2018/11/03 19:06:26 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:2e78dd86] Waiting to read message
+[2018/11/03 19:06:26 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:2e78dd86] Reading message with length: 115
+[2018/11/03 19:06:26 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:2e78dd86] Read message {"Type":"NewTunnel","Payload":{"ReqId":"e2e8909d84c8fb37","Url":"http://acm.ab1.ren","Protocol":"http","Error":""}}
+[2018/11/03 19:06:26 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:29a3de2d] New connection to: 39.104.102.38:4443
+[2018/11/03 19:06:26 CST] [INFO] (ngrok/log.(*PrefixLogger).Info:83) [client] Tunnel established at http://acm.ab1.ren
+[2018/11/03 19:06:26 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:2e78dd86] Waiting to read message
+[2018/11/03 19:06:26 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:29a3de2d] Writing message: {"Type":"RegProxy","Payload":{"ClientId":"d97b554f5fcb0ac70763493f16ee373c"}}
+[2018/11/03 19:06:26 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] Waiting for update
+[2018/11/03 19:06:26 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:29a3de2d] Waiting to read message
+[2018/11/03 19:06:27 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:29a3de2d] Reading message with length: 97
+[2018/11/03 19:06:27 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:29a3de2d] Read message {"Type":"StartProxy","Payload":{"Url":"http://acm.ab1.ren","ClientAddr":"123.185.181.222:14589"}}
+[2018/11/03 19:06:27 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:2e78dd86] Reading message with length: 32
+[2018/11/03 19:06:27 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:2e78dd86] Read message {"Type":"ReqProxy","Payload":{}}
+[2018/11/03 19:06:27 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:2e78dd86] Waiting to read message
+[2018/11/03 19:06:27 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [prv:74c0562a] New connection to: 192.168.110.200:80
+[2018/11/03 19:06:27 CST] [INFO] (ngrok/log.(*PrefixLogger).Info:83) [prv:74c0562a] Joined with connection pxy:29a3de2d
+[2018/11/03 19:06:27 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] Waiting for update
+[2018/11/03 19:06:27 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] [http] Got HTTP update
+[2018/11/03 19:06:27 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] Waiting for update
+[2018/11/03 19:06:27 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:2e3afb02] New connection to: 39.104.102.38:4443
+[2018/11/03 19:06:27 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:2e3afb02] Writing message: {"Type":"RegProxy","Payload":{"ClientId":"d97b554f5fcb0ac70763493f16ee373c"}}
+[2018/11/03 19:06:27 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:2e3afb02] Waiting to read message
+[2018/11/03 19:06:27 CST] [INFO] (ngrok/log.Info:112) No update available
+[2018/11/03 19:06:27 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] [http] Got HTTP update
+[2018/11/03 19:06:27 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] Waiting for update
+[2018/11/03 19:06:27 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] [http] Got HTTP update
+[2018/11/03 19:06:27 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] Waiting for update
+[2018/11/03 19:06:27 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] [http] Got HTTP update
+[2018/11/03 19:06:27 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] Waiting for update
+[2018/11/03 19:06:28 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] [http] Got HTTP update
+[2018/11/03 19:06:28 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] Waiting for update
+[2018/11/03 19:06:28 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] [http] Got HTTP update
+[2018/11/03 19:06:28 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] Waiting for update
+[2018/11/03 19:06:30 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] [http] Got HTTP update
+[2018/11/03 19:06:30 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] Waiting for update
+[2018/11/03 19:06:30 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] [http] Got HTTP update
+[2018/11/03 19:06:30 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] Waiting for update
+[2018/11/03 19:06:30 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] [http] Got HTTP update
+[2018/11/03 19:06:30 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] Waiting for update
+[2018/11/03 19:06:30 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] [http] Got HTTP update
+[2018/11/03 19:06:30 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] Waiting for update

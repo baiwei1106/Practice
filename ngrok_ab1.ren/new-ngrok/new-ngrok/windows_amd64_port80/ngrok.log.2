@@ -1,0 +1,230 @@
+[2018/11/03 19:03:45 CST] [INFO] (ngrok/log.Info:112) Reading configuration file ngrok.cfg
+[2018/11/03 19:03:45 CST] [INFO] (ngrok/log.(*PrefixLogger).Info:83) [client] Trusting root CAs: [assets/client/tls/ngrokroot.crt]
+[2018/11/03 19:03:45 CST] [INFO] (ngrok/log.(*PrefixLogger).Info:83) [view] [web] Serving web interface on 127.0.0.1:4040
+[2018/11/03 19:03:45 CST] [INFO] (ngrok/log.(*PrefixLogger).Info:83) [view] [term] Resize event, redrawing
+[2018/11/03 19:03:45 CST] [INFO] (ngrok/log.Info:112) Checking for update
+[2018/11/03 19:03:45 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] Waiting for update
+[2018/11/03 19:03:45 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] Waiting for update
+[2018/11/03 19:03:45 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:df8db75] New connection to: 39.104.102.38:4443
+[2018/11/03 19:03:45 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:df8db75] Writing message: {"Type":"Auth","Payload":{"Version":"2","MmVersion":"1.7","User":"","Password":"","OS":"windows","Arch":"amd64","ClientId":""}}
+[2018/11/03 19:03:45 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:df8db75] Waiting to read message
+[2018/11/03 19:03:45 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:df8db75] Reading message with length: 120
+[2018/11/03 19:03:45 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:df8db75] Read message {"Type":"AuthResp","Payload":{"Version":"2","MmVersion":"1.7","ClientId":"c1ade81c913413a63ec79e77fe06f298","Error":""}}
+[2018/11/03 19:03:45 CST] [INFO] (ngrok/log.(*PrefixLogger).Info:83) [client] Authenticated with server, client id: c1ade81c913413a63ec79e77fe06f298
+[2018/11/03 19:03:45 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] Waiting for update
+[2018/11/03 19:03:45 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:df8db75] Writing message: {"Type":"ReqTunnel","Payload":{"ReqId":"a4218a6bc7544962","Protocol":"http","Hostname":"","Subdomain":"acm","HttpAuth":"","RemotePort":0}}
+[2018/11/03 19:03:45 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:df8db75] Waiting to read message
+[2018/11/03 19:03:45 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:df8db75] Reading message with length: 32
+[2018/11/03 19:03:45 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:df8db75] Read message {"Type":"ReqProxy","Payload":{}}
+[2018/11/03 19:03:45 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:df8db75] Waiting to read message
+[2018/11/03 19:03:45 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:df8db75] Reading message with length: 129
+[2018/11/03 19:03:45 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:df8db75] Read message {"Type":"NewTunnel","Payload":{"ReqId":"","Url":"","Protocol":"","Error":"The tunnel http://acm.ab1.ren is already registered."}}
+[2018/11/03 19:03:45 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:2a130191] New connection to: 39.104.102.38:4443
+[2018/11/03 19:03:45 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:2a130191] Writing message: {"Type":"RegProxy","Payload":{"ClientId":"c1ade81c913413a63ec79e77fe06f298"}}
+[2018/11/03 19:03:45 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:df8db75] Closing
+[2018/11/03 19:03:45 CST] [EROR] (ngrok/log.Error:120) control recovering from failure EOF
+[2018/11/03 19:03:45 CST] [INFO] (ngrok/log.Info:112) Waiting 1 seconds before reconnecting
+[2018/11/03 19:03:46 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:2a130191] Waiting to read message
+[2018/11/03 19:03:46 CST] [EROR] (ngrok/log.(*PrefixLogger).Error:91) [pxy:2a130191] Server failed to write StartProxy: EOF
+[2018/11/03 19:03:46 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:2a130191] Closing
+[2018/11/03 19:03:46 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] Waiting for update
+[2018/11/03 19:03:46 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:1b19cead] New connection to: 39.104.102.38:4443
+[2018/11/03 19:03:46 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:1b19cead] Writing message: {"Type":"Auth","Payload":{"Version":"2","MmVersion":"1.7","User":"","Password":"","OS":"windows","Arch":"amd64","ClientId":"c1ade81c913413a63ec79e77fe06f298"}}
+[2018/11/03 19:03:47 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:1b19cead] Waiting to read message
+[2018/11/03 19:03:47 CST] [INFO] (ngrok/log.Info:112) No update available
+[2018/11/03 19:03:47 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:1b19cead] Reading message with length: 120
+[2018/11/03 19:03:47 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:1b19cead] Read message {"Type":"AuthResp","Payload":{"Version":"2","MmVersion":"1.7","ClientId":"c1ade81c913413a63ec79e77fe06f298","Error":""}}
+[2018/11/03 19:03:47 CST] [INFO] (ngrok/log.(*PrefixLogger).Info:83) [client] Authenticated with server, client id: c1ade81c913413a63ec79e77fe06f298
+[2018/11/03 19:03:47 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] Waiting for update
+[2018/11/03 19:03:47 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:1b19cead] Writing message: {"Type":"ReqTunnel","Payload":{"ReqId":"4bb28967427cac82","Protocol":"http","Hostname":"","Subdomain":"acm","HttpAuth":"","RemotePort":0}}
+[2018/11/03 19:03:47 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:1b19cead] Waiting to read message
+[2018/11/03 19:03:47 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:1b19cead] Reading message with length: 32
+[2018/11/03 19:03:47 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:1b19cead] Read message {"Type":"ReqProxy","Payload":{}}
+[2018/11/03 19:03:47 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:1b19cead] Waiting to read message
+[2018/11/03 19:03:47 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:1b19cead] Reading message with length: 129
+[2018/11/03 19:03:47 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:1b19cead] Read message {"Type":"NewTunnel","Payload":{"ReqId":"","Url":"","Protocol":"","Error":"The tunnel http://acm.ab1.ren is already registered."}}
+[2018/11/03 19:03:47 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:1b19cead] Closing
+[2018/11/03 19:03:47 CST] [EROR] (ngrok/log.Error:120) control recovering from failure EOF
+[2018/11/03 19:03:47 CST] [INFO] (ngrok/log.Info:112) Waiting 2 seconds before reconnecting
+[2018/11/03 19:03:47 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:5291aa2d] New connection to: 39.104.102.38:4443
+[2018/11/03 19:03:47 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:5291aa2d] Writing message: {"Type":"RegProxy","Payload":{"ClientId":"c1ade81c913413a63ec79e77fe06f298"}}
+[2018/11/03 19:03:47 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:5291aa2d] Waiting to read message
+[2018/11/03 19:03:47 CST] [EROR] (ngrok/log.(*PrefixLogger).Error:91) [pxy:5291aa2d] Server failed to write StartProxy: EOF
+[2018/11/03 19:03:47 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:5291aa2d] Closing
+[2018/11/03 19:03:49 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] Waiting for update
+[2018/11/03 19:03:49 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:1ebfbb28] New connection to: 39.104.102.38:4443
+[2018/11/03 19:03:49 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:1ebfbb28] Writing message: {"Type":"Auth","Payload":{"Version":"2","MmVersion":"1.7","User":"","Password":"","OS":"windows","Arch":"amd64","ClientId":"c1ade81c913413a63ec79e77fe06f298"}}
+[2018/11/03 19:03:49 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:1ebfbb28] Waiting to read message
+[2018/11/03 19:03:49 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:1ebfbb28] Reading message with length: 120
+[2018/11/03 19:03:49 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:1ebfbb28] Read message {"Type":"AuthResp","Payload":{"Version":"2","MmVersion":"1.7","ClientId":"c1ade81c913413a63ec79e77fe06f298","Error":""}}
+[2018/11/03 19:03:49 CST] [INFO] (ngrok/log.(*PrefixLogger).Info:83) [client] Authenticated with server, client id: c1ade81c913413a63ec79e77fe06f298
+[2018/11/03 19:03:49 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] Waiting for update
+[2018/11/03 19:03:49 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:1ebfbb28] Writing message: {"Type":"ReqTunnel","Payload":{"ReqId":"c61ae0ee9a3ddc15","Protocol":"http","Hostname":"","Subdomain":"acm","HttpAuth":"","RemotePort":0}}
+[2018/11/03 19:03:49 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:1ebfbb28] Waiting to read message
+[2018/11/03 19:03:49 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:1ebfbb28] Reading message with length: 32
+[2018/11/03 19:03:49 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:1ebfbb28] Read message {"Type":"ReqProxy","Payload":{}}
+[2018/11/03 19:03:49 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:1ebfbb28] Waiting to read message
+[2018/11/03 19:03:49 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:5748ea8] New connection to: 39.104.102.38:4443
+[2018/11/03 19:03:49 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:5748ea8] Writing message: {"Type":"RegProxy","Payload":{"ClientId":"c1ade81c913413a63ec79e77fe06f298"}}
+[2018/11/03 19:03:49 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:1ebfbb28] Reading message with length: 129
+[2018/11/03 19:03:49 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:1ebfbb28] Read message {"Type":"NewTunnel","Payload":{"ReqId":"","Url":"","Protocol":"","Error":"The tunnel http://acm.ab1.ren is already registered."}}
+[2018/11/03 19:03:49 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:1ebfbb28] Closing
+[2018/11/03 19:03:49 CST] [EROR] (ngrok/log.Error:120) control recovering from failure EOF
+[2018/11/03 19:03:49 CST] [INFO] (ngrok/log.Info:112) Waiting 4 seconds before reconnecting
+[2018/11/03 19:03:49 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:5748ea8] Waiting to read message
+[2018/11/03 19:03:49 CST] [EROR] (ngrok/log.(*PrefixLogger).Error:91) [pxy:5748ea8] Server failed to write StartProxy: EOF
+[2018/11/03 19:03:49 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:5748ea8] Closing
+[2018/11/03 19:03:53 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] Waiting for update
+[2018/11/03 19:03:53 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:6cad6969] New connection to: 39.104.102.38:4443
+[2018/11/03 19:03:53 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:6cad6969] Writing message: {"Type":"Auth","Payload":{"Version":"2","MmVersion":"1.7","User":"","Password":"","OS":"windows","Arch":"amd64","ClientId":"c1ade81c913413a63ec79e77fe06f298"}}
+[2018/11/03 19:03:53 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:6cad6969] Waiting to read message
+[2018/11/03 19:03:53 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:6cad6969] Reading message with length: 120
+[2018/11/03 19:03:53 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:6cad6969] Read message {"Type":"AuthResp","Payload":{"Version":"2","MmVersion":"1.7","ClientId":"c1ade81c913413a63ec79e77fe06f298","Error":""}}
+[2018/11/03 19:03:53 CST] [INFO] (ngrok/log.(*PrefixLogger).Info:83) [client] Authenticated with server, client id: c1ade81c913413a63ec79e77fe06f298
+[2018/11/03 19:03:53 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] Waiting for update
+[2018/11/03 19:03:53 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:6cad6969] Writing message: {"Type":"ReqTunnel","Payload":{"ReqId":"aaf405d4772fb0ca","Protocol":"http","Hostname":"","Subdomain":"acm","HttpAuth":"","RemotePort":0}}
+[2018/11/03 19:03:53 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:6cad6969] Waiting to read message
+[2018/11/03 19:03:53 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:6cad6969] Reading message with length: 32
+[2018/11/03 19:03:53 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:6cad6969] Read message {"Type":"ReqProxy","Payload":{}}
+[2018/11/03 19:03:53 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:6cad6969] Waiting to read message
+[2018/11/03 19:03:53 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:44c9660c] New connection to: 39.104.102.38:4443
+[2018/11/03 19:03:53 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:44c9660c] Writing message: {"Type":"RegProxy","Payload":{"ClientId":"c1ade81c913413a63ec79e77fe06f298"}}
+[2018/11/03 19:03:53 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:6cad6969] Reading message with length: 129
+[2018/11/03 19:03:53 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:6cad6969] Read message {"Type":"NewTunnel","Payload":{"ReqId":"","Url":"","Protocol":"","Error":"The tunnel http://acm.ab1.ren is already registered."}}
+[2018/11/03 19:03:53 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:6cad6969] Closing
+[2018/11/03 19:03:53 CST] [EROR] (ngrok/log.Error:120) control recovering from failure EOF
+[2018/11/03 19:03:53 CST] [INFO] (ngrok/log.Info:112) Waiting 8 seconds before reconnecting
+[2018/11/03 19:03:53 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:44c9660c] Waiting to read message
+[2018/11/03 19:03:53 CST] [EROR] (ngrok/log.(*PrefixLogger).Error:91) [pxy:44c9660c] Server failed to write StartProxy: EOF
+[2018/11/03 19:03:53 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:44c9660c] Closing
+[2018/11/03 19:04:01 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] Waiting for update
+[2018/11/03 19:04:01 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:4fe2e73] New connection to: 39.104.102.38:4443
+[2018/11/03 19:04:01 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:4fe2e73] Writing message: {"Type":"Auth","Payload":{"Version":"2","MmVersion":"1.7","User":"","Password":"","OS":"windows","Arch":"amd64","ClientId":"c1ade81c913413a63ec79e77fe06f298"}}
+[2018/11/03 19:04:01 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:4fe2e73] Waiting to read message
+[2018/11/03 19:04:01 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:4fe2e73] Reading message with length: 120
+[2018/11/03 19:04:01 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:4fe2e73] Read message {"Type":"AuthResp","Payload":{"Version":"2","MmVersion":"1.7","ClientId":"c1ade81c913413a63ec79e77fe06f298","Error":""}}
+[2018/11/03 19:04:01 CST] [INFO] (ngrok/log.(*PrefixLogger).Info:83) [client] Authenticated with server, client id: c1ade81c913413a63ec79e77fe06f298
+[2018/11/03 19:04:01 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] Waiting for update
+[2018/11/03 19:04:01 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:4fe2e73] Writing message: {"Type":"ReqTunnel","Payload":{"ReqId":"bf41cd80f1e56fc3","Protocol":"http","Hostname":"","Subdomain":"acm","HttpAuth":"","RemotePort":0}}
+[2018/11/03 19:04:01 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:4fe2e73] Waiting to read message
+[2018/11/03 19:04:01 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:4fe2e73] Reading message with length: 32
+[2018/11/03 19:04:01 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:4fe2e73] Read message {"Type":"ReqProxy","Payload":{}}
+[2018/11/03 19:04:01 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:4fe2e73] Waiting to read message
+[2018/11/03 19:04:01 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:4fe2e73] Reading message with length: 129
+[2018/11/03 19:04:01 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:4fe2e73] Read message {"Type":"NewTunnel","Payload":{"ReqId":"","Url":"","Protocol":"","Error":"The tunnel http://acm.ab1.ren is already registered."}}
+[2018/11/03 19:04:01 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:4fe2e73] Closing
+[2018/11/03 19:04:01 CST] [EROR] (ngrok/log.Error:120) control recovering from failure EOF
+[2018/11/03 19:04:01 CST] [INFO] (ngrok/log.Info:112) Waiting 16 seconds before reconnecting
+[2018/11/03 19:04:01 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:52370bc4] New connection to: 39.104.102.38:4443
+[2018/11/03 19:04:01 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:52370bc4] Writing message: {"Type":"RegProxy","Payload":{"ClientId":"c1ade81c913413a63ec79e77fe06f298"}}
+[2018/11/03 19:04:01 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:52370bc4] Waiting to read message
+[2018/11/03 19:04:01 CST] [EROR] (ngrok/log.(*PrefixLogger).Error:91) [pxy:52370bc4] Server failed to write StartProxy: EOF
+[2018/11/03 19:04:01 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:52370bc4] Closing
+[2018/11/03 19:04:05 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:df8db75] Writing message: {"Type":"Ping","Payload":{}}
+[2018/11/03 19:04:05 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:df8db75] Got error tls: use of closed connection when writing PingMsg
+[2018/11/03 19:04:07 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:1b19cead] Writing message: {"Type":"Ping","Payload":{}}
+[2018/11/03 19:04:07 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:1b19cead] Got error tls: use of closed connection when writing PingMsg
+[2018/11/03 19:04:09 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:1ebfbb28] Writing message: {"Type":"Ping","Payload":{}}
+[2018/11/03 19:04:09 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:1ebfbb28] Got error tls: use of closed connection when writing PingMsg
+[2018/11/03 19:04:13 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:6cad6969] Writing message: {"Type":"Ping","Payload":{}}
+[2018/11/03 19:04:13 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:6cad6969] Got error tls: use of closed connection when writing PingMsg
+[2018/11/03 19:04:17 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] Waiting for update
+[2018/11/03 19:04:17 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:5e7d9bf7] New connection to: 39.104.102.38:4443
+[2018/11/03 19:04:17 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:5e7d9bf7] Writing message: {"Type":"Auth","Payload":{"Version":"2","MmVersion":"1.7","User":"","Password":"","OS":"windows","Arch":"amd64","ClientId":"c1ade81c913413a63ec79e77fe06f298"}}
+[2018/11/03 19:04:17 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:5e7d9bf7] Waiting to read message
+[2018/11/03 19:04:17 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:5e7d9bf7] Reading message with length: 120
+[2018/11/03 19:04:17 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:5e7d9bf7] Read message {"Type":"AuthResp","Payload":{"Version":"2","MmVersion":"1.7","ClientId":"c1ade81c913413a63ec79e77fe06f298","Error":""}}
+[2018/11/03 19:04:17 CST] [INFO] (ngrok/log.(*PrefixLogger).Info:83) [client] Authenticated with server, client id: c1ade81c913413a63ec79e77fe06f298
+[2018/11/03 19:04:17 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] Waiting for update
+[2018/11/03 19:04:17 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:5e7d9bf7] Writing message: {"Type":"ReqTunnel","Payload":{"ReqId":"c6bb5b4e7044a6ab","Protocol":"http","Hostname":"","Subdomain":"acm","HttpAuth":"","RemotePort":0}}
+[2018/11/03 19:04:17 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:5e7d9bf7] Waiting to read message
+[2018/11/03 19:04:17 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:5e7d9bf7] Reading message with length: 32
+[2018/11/03 19:04:17 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:5e7d9bf7] Read message {"Type":"ReqProxy","Payload":{}}
+[2018/11/03 19:04:17 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:5e7d9bf7] Waiting to read message
+[2018/11/03 19:04:17 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:5e7d9bf7] Reading message with length: 129
+[2018/11/03 19:04:17 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:5e7d9bf7] Read message {"Type":"NewTunnel","Payload":{"ReqId":"","Url":"","Protocol":"","Error":"The tunnel http://acm.ab1.ren is already registered."}}
+[2018/11/03 19:04:17 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:6d071483] New connection to: 39.104.102.38:4443
+[2018/11/03 19:04:17 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:6d071483] Writing message: {"Type":"RegProxy","Payload":{"ClientId":"c1ade81c913413a63ec79e77fe06f298"}}
+[2018/11/03 19:04:17 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:5e7d9bf7] Closing
+[2018/11/03 19:04:17 CST] [EROR] (ngrok/log.Error:120) control recovering from failure EOF
+[2018/11/03 19:04:17 CST] [INFO] (ngrok/log.Info:112) Waiting 30 seconds before reconnecting
+[2018/11/03 19:04:18 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:6d071483] Waiting to read message
+[2018/11/03 19:04:18 CST] [EROR] (ngrok/log.(*PrefixLogger).Error:91) [pxy:6d071483] Server failed to write StartProxy: EOF
+[2018/11/03 19:04:18 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:6d071483] Closing
+[2018/11/03 19:04:21 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:4fe2e73] Writing message: {"Type":"Ping","Payload":{}}
+[2018/11/03 19:04:21 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:4fe2e73] Got error tls: use of closed connection when writing PingMsg
+[2018/11/03 19:04:37 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:5e7d9bf7] Writing message: {"Type":"Ping","Payload":{}}
+[2018/11/03 19:04:37 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:5e7d9bf7] Got error tls: use of closed connection when writing PingMsg
+[2018/11/03 19:04:47 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] Waiting for update
+[2018/11/03 19:04:47 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:22b5cc0b] New connection to: 39.104.102.38:4443
+[2018/11/03 19:04:47 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:22b5cc0b] Writing message: {"Type":"Auth","Payload":{"Version":"2","MmVersion":"1.7","User":"","Password":"","OS":"windows","Arch":"amd64","ClientId":"c1ade81c913413a63ec79e77fe06f298"}}
+[2018/11/03 19:04:48 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:22b5cc0b] Waiting to read message
+[2018/11/03 19:04:48 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:22b5cc0b] Reading message with length: 120
+[2018/11/03 19:04:48 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:22b5cc0b] Read message {"Type":"AuthResp","Payload":{"Version":"2","MmVersion":"1.7","ClientId":"c1ade81c913413a63ec79e77fe06f298","Error":""}}
+[2018/11/03 19:04:48 CST] [INFO] (ngrok/log.(*PrefixLogger).Info:83) [client] Authenticated with server, client id: c1ade81c913413a63ec79e77fe06f298
+[2018/11/03 19:04:48 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] Waiting for update
+[2018/11/03 19:04:48 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:22b5cc0b] Writing message: {"Type":"ReqTunnel","Payload":{"ReqId":"9995aaa37f27de2c","Protocol":"http","Hostname":"","Subdomain":"acm","HttpAuth":"","RemotePort":0}}
+[2018/11/03 19:04:48 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:22b5cc0b] Waiting to read message
+[2018/11/03 19:04:48 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:22b5cc0b] Reading message with length: 32
+[2018/11/03 19:04:48 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:22b5cc0b] Read message {"Type":"ReqProxy","Payload":{}}
+[2018/11/03 19:04:48 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:22b5cc0b] Waiting to read message
+[2018/11/03 19:04:48 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:22b5cc0b] Reading message with length: 129
+[2018/11/03 19:04:48 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:22b5cc0b] Read message {"Type":"NewTunnel","Payload":{"ReqId":"","Url":"","Protocol":"","Error":"The tunnel http://acm.ab1.ren is already registered."}}
+[2018/11/03 19:04:48 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:2472655e] New connection to: 39.104.102.38:4443
+[2018/11/03 19:04:48 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:2472655e] Writing message: {"Type":"RegProxy","Payload":{"ClientId":"c1ade81c913413a63ec79e77fe06f298"}}
+[2018/11/03 19:04:48 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:22b5cc0b] Closing
+[2018/11/03 19:04:48 CST] [EROR] (ngrok/log.Error:120) control recovering from failure EOF
+[2018/11/03 19:04:48 CST] [INFO] (ngrok/log.Info:112) Waiting 30 seconds before reconnecting
+[2018/11/03 19:04:48 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:2472655e] Waiting to read message
+[2018/11/03 19:04:48 CST] [EROR] (ngrok/log.(*PrefixLogger).Error:91) [pxy:2472655e] Server failed to write StartProxy: EOF
+[2018/11/03 19:04:48 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:2472655e] Closing
+[2018/11/03 19:05:08 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:22b5cc0b] Writing message: {"Type":"Ping","Payload":{}}
+[2018/11/03 19:05:08 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:22b5cc0b] Got error tls: use of closed connection when writing PingMsg
+[2018/11/03 19:05:18 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] Waiting for update
+[2018/11/03 19:05:18 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:60ae14] New connection to: 39.104.102.38:4443
+[2018/11/03 19:05:18 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:60ae14] Writing message: {"Type":"Auth","Payload":{"Version":"2","MmVersion":"1.7","User":"","Password":"","OS":"windows","Arch":"amd64","ClientId":"c1ade81c913413a63ec79e77fe06f298"}}
+[2018/11/03 19:05:18 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:60ae14] Waiting to read message
+[2018/11/03 19:05:18 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:60ae14] Reading message with length: 120
+[2018/11/03 19:05:18 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:60ae14] Read message {"Type":"AuthResp","Payload":{"Version":"2","MmVersion":"1.7","ClientId":"c1ade81c913413a63ec79e77fe06f298","Error":""}}
+[2018/11/03 19:05:18 CST] [INFO] (ngrok/log.(*PrefixLogger).Info:83) [client] Authenticated with server, client id: c1ade81c913413a63ec79e77fe06f298
+[2018/11/03 19:05:18 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] Waiting for update
+[2018/11/03 19:05:18 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:60ae14] Writing message: {"Type":"ReqTunnel","Payload":{"ReqId":"5250342ff5e4bc32","Protocol":"http","Hostname":"","Subdomain":"acm","HttpAuth":"","RemotePort":0}}
+[2018/11/03 19:05:18 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:60ae14] Waiting to read message
+[2018/11/03 19:05:18 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:60ae14] Reading message with length: 32
+[2018/11/03 19:05:18 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:60ae14] Read message {"Type":"ReqProxy","Payload":{}}
+[2018/11/03 19:05:18 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:60ae14] Waiting to read message
+[2018/11/03 19:05:18 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:60ae14] Reading message with length: 129
+[2018/11/03 19:05:18 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:60ae14] Read message {"Type":"NewTunnel","Payload":{"ReqId":"","Url":"","Protocol":"","Error":"The tunnel http://acm.ab1.ren is already registered."}}
+[2018/11/03 19:05:18 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:60ae14] Closing
+[2018/11/03 19:05:18 CST] [EROR] (ngrok/log.Error:120) control recovering from failure EOF
+[2018/11/03 19:05:18 CST] [INFO] (ngrok/log.Info:112) Waiting 30 seconds before reconnecting
+[2018/11/03 19:05:18 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:43f0df48] New connection to: 39.104.102.38:4443
+[2018/11/03 19:05:18 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:43f0df48] Writing message: {"Type":"RegProxy","Payload":{"ClientId":"c1ade81c913413a63ec79e77fe06f298"}}
+[2018/11/03 19:05:18 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:43f0df48] Waiting to read message
+[2018/11/03 19:05:18 CST] [EROR] (ngrok/log.(*PrefixLogger).Error:91) [pxy:43f0df48] Server failed to write StartProxy: EOF
+[2018/11/03 19:05:18 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:43f0df48] Closing
+[2018/11/03 19:05:38 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:60ae14] Writing message: {"Type":"Ping","Payload":{}}
+[2018/11/03 19:05:38 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:60ae14] Got error tls: use of closed connection when writing PingMsg
+[2018/11/03 19:05:48 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] Waiting for update
+[2018/11/03 19:05:48 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:62061e68] New connection to: 39.104.102.38:4443
+[2018/11/03 19:05:48 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:62061e68] Writing message: {"Type":"Auth","Payload":{"Version":"2","MmVersion":"1.7","User":"","Password":"","OS":"windows","Arch":"amd64","ClientId":"c1ade81c913413a63ec79e77fe06f298"}}
+[2018/11/03 19:05:48 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:62061e68] Waiting to read message
+[2018/11/03 19:05:48 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:62061e68] Reading message with length: 120
+[2018/11/03 19:05:48 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:62061e68] Read message {"Type":"AuthResp","Payload":{"Version":"2","MmVersion":"1.7","ClientId":"c1ade81c913413a63ec79e77fe06f298","Error":""}}
+[2018/11/03 19:05:48 CST] [INFO] (ngrok/log.(*PrefixLogger).Info:83) [client] Authenticated with server, client id: c1ade81c913413a63ec79e77fe06f298
+[2018/11/03 19:05:48 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [view] [term] Waiting for update
+[2018/11/03 19:05:48 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:62061e68] Writing message: {"Type":"ReqTunnel","Payload":{"ReqId":"361cea91021e65d6","Protocol":"http","Hostname":"","Subdomain":"acm","HttpAuth":"","RemotePort":0}}
+[2018/11/03 19:05:48 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:62061e68] Waiting to read message
+[2018/11/03 19:05:48 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:62061e68] Reading message with length: 32
+[2018/11/03 19:05:48 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:62061e68] Read message {"Type":"ReqProxy","Payload":{}}
+[2018/11/03 19:05:48 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:62061e68] Waiting to read message
+[2018/11/03 19:05:49 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:62061e68] Reading message with length: 129
+[2018/11/03 19:05:49 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:62061e68] Read message {"Type":"NewTunnel","Payload":{"ReqId":"","Url":"","Protocol":"","Error":"The tunnel http://acm.ab1.ren is already registered."}}
+[2018/11/03 19:05:49 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [ctl:62061e68] Closing
+[2018/11/03 19:05:49 CST] [EROR] (ngrok/log.Error:120) control recovering from failure EOF
+[2018/11/03 19:05:49 CST] [INFO] (ngrok/log.Info:112) Waiting 30 seconds before reconnecting
+[2018/11/03 19:05:49 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:25c7c514] New connection to: 39.104.102.38:4443
+[2018/11/03 19:05:49 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:25c7c514] Writing message: {"Type":"RegProxy","Payload":{"ClientId":"c1ade81c913413a63ec79e77fe06f298"}}
+[2018/11/03 19:05:49 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:25c7c514] Waiting to read message
+[2018/11/03 19:05:49 CST] [EROR] (ngrok/log.(*PrefixLogger).Error:91) [pxy:25c7c514] Server failed to write StartProxy: EOF
+[2018/11/03 19:05:49 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:79) [pxy:25c7c514] Closing
